@@ -162,7 +162,7 @@ const Header = () => {
                 <ShowOnLogin>
                   <NavLink to="/" style={{ color: "#ff7722" }}>
                     <FaUserCircle size={16} />
-                    Hi, {displayName}
+                    {displayName}
                   </NavLink>
                 </ShowOnLogin>
                 <ShowOnLogin>
